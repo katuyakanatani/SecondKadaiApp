@@ -12,7 +12,6 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var textField: UITextField!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -21,7 +20,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         //segueからい遷移先のResultViewControllerを取得する
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
-        resultViewController.x = "textField.text"
+        resultViewController.x = textField.text!   //←この部分にテキストフィールドの中身を持ってきたい
         
     }
 

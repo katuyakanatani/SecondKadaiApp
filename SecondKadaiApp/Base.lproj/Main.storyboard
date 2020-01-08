@@ -56,6 +56,8 @@
         <!--Result View Controller-->
         <scene sceneID="5SV-e8-Vsi">
             <objects>
+                <exit id="owu-rS-gTj" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iLv-fP-NFM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="P1S-JK-ZiD" customClass="ResultViewController" customModule="SecondKadaiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mAe-Ge-0TY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -86,11 +88,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="hzx-Gb-hx8"/>
                     <connections>
-                        <outlet property="label" destination="mAe-Ge-0TY" id="X68-rb-2K1"/>
+                        <outlet property="Label" destination="alV-jX-EHF" id="aHK-1K-eGA"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iLv-fP-NFM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="owu-rS-gTj" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="854" y="114"/>
         </scene>

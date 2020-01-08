@@ -10,7 +10,8 @@ import UIKit
 
 class ResultViewController: UIViewController {
     
-    @IBOutlet var label: UILabel!
+    @IBOutlet weak var Label: UILabel!
+    
     
     var x:String = ""
     let y:String = "こんにちは"
@@ -18,7 +19,7 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
         
         let result = x
-        label.text = "こんにちは、\(result)さん"
+        Label.text = "こんにちは、\(result)さん"
     
         
 
